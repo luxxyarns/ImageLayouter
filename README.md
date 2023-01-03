@@ -2,10 +2,8 @@
 Tool to layout images in a rectangle using binary tree based bin packing and additional growth adjustment
 
 
-![screenshot 1](./screenshots/1.jpg)
 ![screenshot 2](./screenshots/2.jpg)
-
-
+ 
 Sample usage
 
 ``` swift
@@ -82,3 +80,5 @@ struct ContentView: View {
 }
 
 ```
+
+![screenshot 1](./screenshots/1.jpg)
