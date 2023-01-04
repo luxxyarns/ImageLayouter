@@ -8,33 +8,6 @@
         "revision" : "104f224c080ccf2c346469f6ec0e0d5b49b9bf95",
         "version" : "1.0.0"
       }
-    },
-    {
-      "identity" : "cache",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/hyperoslo/Cache",
-      "state" : {
-        "revision" : "c7f4d633049c3bd649a353bad36f6c17e9df085f",
-        "version" : "6.0.0"
-      }
-    },
-    {
-      "identity" : "sdwebimage",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SDWebImage/SDWebImage",
-      "state" : {
-        "revision" : "4178d12a44691182c2eb79c70281b14cb73f4cbf",
-        "version" : "5.14.3"
-      }
-    },
-    {
-      "identity" : "sdwebimageswiftui",
-      "kind" : "remoteSourceControl",
-      "location" : "https://github.com/SDWebImage/SDWebImageSwiftUI",
-      "state" : {
-        "revision" : "61fefe9c284fd41ddef77d02749e88f00c305196",
-        "version" : "2.2.2"
-      }
     }
   ],
   "version" : 2

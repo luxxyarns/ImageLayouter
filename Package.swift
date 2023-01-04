@@ -15,9 +15,6 @@ let package = Package(
     ],
     dependencies: [
         // Dependencies declare other packages that this package depends on.
-        .package(url: "https://github.com/SDWebImage/SDWebImage", from: "5.0.0"),
-        .package(url: "https://github.com/SDWebImage/SDWebImageSwiftUI", from: "2.0.0"),
-        .package(url: "https://github.com/hyperoslo/Cache", from: "6.0.0"),
         .package(url: "https://github.com/ejjonny/alpacka", from: "1.0.0"),
     ],
     targets: [
@@ -26,9 +23,6 @@ let package = Package(
         .target(
             name: "ImageLayouter",
             dependencies: [
-                .product(name: "SDWebImage", package: "SDWebImage"),
-                .product(name: "SDWebImageSwiftUI", package: "SDWebImageSwiftUI"),
-                .product(name: "Cache", package: "Cache"),
                 .product(name: "Alpacka", package: "Alpacka"),
             ]),
         .testTarget(
